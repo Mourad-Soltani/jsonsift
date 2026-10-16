@@ -1,0 +1,10 @@
+{
+  "name": "JsonSift",
+  "version": "1.0.0",
+  "active": true,
+  "users": [
+    {"name": "Ada", "email": "ada@example.com", "roles": ["admin", "dev"]},
+    {"name": "Lin", "email": "lin@example.com", "roles": ["viewer"]}
+  ],
+  "meta": {"generated_by": "Mourad.Soltani"}
+}

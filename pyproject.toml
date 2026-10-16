@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jsonsift"
+version = "1.0.0"
+description = "Minimal zero-dependency CLI for pretty-printing, validating, extracting, and diffing JSON. Built by Mourad.Soltani"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Mourad.Soltani"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+jsonsift = "jsonsift:main"
+
+[tool.setuptools]
+py-modules = ["jsonsift"]
